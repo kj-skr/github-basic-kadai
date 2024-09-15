@@ -1,0 +1,48 @@
+html {
+    font-size: 20px;
+}
+
+.google-fonts{
+    /*ここにGoogle Fontsを指定します */
+    font-family: "Josefin Sans", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+body{
+    font-family: "Arial", "Meiryo", sans-serif
+}
+
+h1{
+    font-family: "Josefin Sans", sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px 4px gray;
+    font-size: 2rem;
+    letter-spacing: 1.2em;
+    border-bottom: solid 3px black;
+}
+
+#basic .bold-text {
+    font-weight: bold;
+}
+
+.black-text {
+    color: black;
+}
+
+.text-pink{
+    color: rgb(255, 192, 203);
+    }
+
+.text-skyblue{
+    color:skyblue;
+}
+
+h2 {
+    text-align: center;
+  }
+  
+p {
+    text-align: center;
+  }
