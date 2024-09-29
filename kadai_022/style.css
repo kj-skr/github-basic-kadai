@@ -1,0 +1,109 @@
+h1, p, body {
+  margin: 0;
+}
+
+a, p {
+  font-size: 20px;
+}
+  
+header {
+  margin-bottom: 20px;
+  background-color: rgb(244, 79, 79);
+  text-align: center;
+}
+  
+h1 {
+  color: rgb(255, 255, 255);
+}
+  
+main {
+  margin: 10px;
+}
+  
+#parent {
+  display: flex;
+  justify-content: space-between;
+}
+
+h2 {
+  font-size: 25px;
+  border-bottom: dotted 3px rgb(236, 122, 122);  
+}
+  
+h2::before {
+  content: "●";
+  color: rgb(239, 111, 139);
+}
+  
+.contents {
+  padding: 10px 15px;
+  margin: 20px 0;
+  flex-basis: 25%;
+  border: solid 3px rgb(238, 204, 204);
+  text-align: center;
+}
+  
+.contents img {
+  margin: 10px 0;
+  width: 70%;
+}
+  
+footer {
+  background-color: rgb(244, 79, 79);
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+  
+footer a {
+  color: rgb(255, 255, 255)
+}
+  
+footer a:visited {
+  color: rgb(193, 234, 251);
+}
+  
+footer a:hover {
+  color: rgb(245, 178, 168);
+}
+
+
+/* すべてのa要素に対するスタイル */
+a {
+  color: rgb(255, 255, 255)f; /* 通常のリンク色 */
+}
+
+a:visited {
+  color: rgb(193, 234, 251); /* 訪問済みリンク色 */
+}
+
+a:hover {
+  color: rgb(245, 178, 168); /* ホバー時のリンク色 */
+}
+
+
+@media screen and (max-width: 768px) {
+    #parent {
+        flex-direction: column; /* 縦並びにするために追加 */
+    }
+    h2{
+      font-size: 30px;
+    }
+    p{
+      font-size: 25px;
+    }
+    div {
+      display: block;
+      }
+
+}
+
+
+
+@media screen and (min-width: 769px) {
+    #parent {
+        flex-direction: row; /* 横並びにするために追加 */
+    }
+    
+
+}
